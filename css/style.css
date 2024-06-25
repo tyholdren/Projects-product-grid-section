@@ -158,6 +158,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .header-container {
+    margin-top: 4rem;
+  }
+
   .products-container {
     grid-template-columns: repeat(2, 21rem);
   }
@@ -168,8 +172,20 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+  .header-container {
+    margin-top: 3rem;
+  }
+
   .products-container {
     grid-template-columns: repeat(1, 19.9rem);
+  }
+
+  .product-container {
+    height: 24.56rem;
+  }
+
+  .products-container .product-container:first-child {
+    height: 29.25rem;
   }
 
   .app-container {
